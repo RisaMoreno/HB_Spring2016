@@ -8,8 +8,9 @@
 # (Part 2): Fix any bugs and make it work!
 
 bill = raw_input("How much was your bill?")
+tip_percent = raw_input("What percent tip would you like to leave?")
 
-tip = bill * .18
+tip = bill * tip_percent
 
 total_bill = bill + tip
 
